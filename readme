@@ -1,0 +1,9 @@
+import os
+
+# Check if the OpenAI API key is set in the environment variable
+openai_api_key = os.getenv("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")
+
+if openai_api_key:
+    print("API Key found in environment variable.")
+else:
+    print("API Key not found in environment variable. Please set it.")
